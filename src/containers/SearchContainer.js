@@ -3,7 +3,7 @@ import Search from './../components/Search.js';
 import handleSearchChange from '../actions/search.js';
 
 const SearchContainer = connect(
-  (stateStub) => { /* noop */ },
+  (stateStub) => { return {}; },
   (dispatch) => {
     return {
       handleSearchInputChange: (query) => {
