@@ -1,5 +1,9 @@
+/**
+ *
+ * @param {*} video
+ * @returns A redux action object to change the currently playing video
+ */
 var changeVideo = (video) => ({
-  // Return some action object to change the currently playing video.
   type: 'CHANGE_VIDEO',
   video
 });
